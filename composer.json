@@ -1,0 +1,18 @@
+{
+    "name": "ztroudi/tchat",
+    "type": "library",
+    "description": "mvc simple project ",
+    "keywords": ["mvc", "php", "project"],
+    "homepage": "https://github.com/ztroudi/tchat/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Zied TROUDI",
+            "role": "Developer",
+            "homepage": "https://www.linkedin.com/in/troudi"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
