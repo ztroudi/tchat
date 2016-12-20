@@ -1,6 +1,5 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors','On');
+
 require_once('connection.php');
 require_once('lib/tools.php');
 session_start();
