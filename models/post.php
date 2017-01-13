@@ -3,10 +3,9 @@
 class Post {
 
     // we define 3 attributes
-    // they are public so that we can access them using $post->author directly
-    protected $id;
-    protected $author;
-    protected $content;
+    private $id;
+    private $author;
+    private $content;
 
     public function getId() {
         return $this->id;
@@ -61,7 +60,6 @@ class Post {
 
     public function save() {
         $db = Db::getInstance();
-        $id = intval($id);
         $req = $db->prepare('INSERT INTO posts (`author`, `content`) VALUES
 (:author, :content)');
         $req->execute(array(
