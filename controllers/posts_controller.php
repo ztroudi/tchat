@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * Class PostsController
+ */
 class PostsController {
 
     public function index() {

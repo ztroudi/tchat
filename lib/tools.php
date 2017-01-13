@@ -1,11 +1,9 @@
 <?php
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+/**
+ * @param $data
+ * @return string
  */
-
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);

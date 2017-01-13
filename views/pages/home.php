@@ -21,7 +21,7 @@
         <input name="submitmsg" type="submit"  id="submitmsg" value="Send" />
     </form>
     <script type="text/javascript">
-// jQuery Document
+        // jQuery Document
         $(document).ready(function () {
         });
     </script>
