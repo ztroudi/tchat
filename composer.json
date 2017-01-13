@@ -1,6 +1,6 @@
 {
     "name": "ztroudi/tchat",
-    "type": "library",
+    "type": "project",
     "description": "mvc simple project ",
     "keywords": ["mvc", "php", "project"],
     "homepage": "https://github.com/ztroudi/tchat/",
